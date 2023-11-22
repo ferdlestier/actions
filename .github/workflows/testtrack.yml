@@ -1,0 +1,11 @@
+name: Track Time
+
+on:
+  workflow_dispatch:
+
+jobs:
+  track-time:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Tracking time'
+        run: echo "Hi"
